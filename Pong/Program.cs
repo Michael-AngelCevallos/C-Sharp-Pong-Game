@@ -1,9 +1,9 @@
 ﻿using System;
 
 
-namespace ClassLibrary2;
+namespace Pong;
 
-public class Class1
+public class Pong
 {
     static void Main(string[] args)
     {
@@ -67,9 +67,17 @@ public class Class1
                     }
                     break;
             }
-            
+            for (int i = 1; i < fieldWidth; i++)
+            {
+                Console.SetCursorPosition(0, i );
+                Console.WriteLine(" ");
+                Console.SetCursorPosition(fieldLength - 1, i );
+                Console.WriteLine(" ");
+            }
         }
 
 
+
+        
     }
 }
