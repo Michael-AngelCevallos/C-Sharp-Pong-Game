@@ -1,0 +1,15 @@
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/bin/Debug/net7.0/Pong
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/bin/Debug/net7.0/Pong.deps.json
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/bin/Debug/net7.0/Pong.runtimeconfig.json
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/bin/Debug/net7.0/Pong.dll
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/bin/Debug/net7.0/Pong.pdb
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/Pong.csproj.AssemblyReference.cache
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/Pong.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/Pong.AssemblyInfoInputs.cache
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/Pong.AssemblyInfo.cs
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/Pong.csproj.CoreCompileInputs.cache
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/Pong.dll
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/refint/Pong.dll
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/Pong.pdb
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/Pong.genruntimeconfig.cache
+/Users/michael-angelcevallos/RiderProjects/Pong/Pong/obj/Debug/net7.0/ref/Pong.dll
