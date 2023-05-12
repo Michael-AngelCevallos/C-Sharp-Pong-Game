@@ -45,7 +45,8 @@ public class Pong
 
             while (!Console.KeyAvailable)
             {
-                
+                Console.SetCursorPosition(ballX,ballY);
+                Console.WriteLine(ballTile);
             }
 
             switch (Console.ReadKey().Key)
