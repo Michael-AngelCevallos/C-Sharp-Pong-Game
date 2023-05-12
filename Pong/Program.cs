@@ -57,6 +57,21 @@ public class Pong
                 {
                     ballY--;
                 }
+
+                if (isBallGoingRight)
+                {
+                    ballX++;
+                }
+                else
+                {
+                    ballX--;
+                }
+                
+                // Makes Ball Bounce
+                if (ballY == 1 || ballY == fieldWidth - 1)
+                {
+                    isBallGoingDown = !isBallGoingDown;
+                }
             }
 
             switch (Console.ReadKey().Key)
