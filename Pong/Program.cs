@@ -17,7 +17,10 @@ public class Pong
 
         int leftRacketHeight = 0;
         int rightRacketHeight = 0;
-        
+
+        int ballX = fieldLength / 2;
+        int ballY = fieldWidth / 2;
+        const char ballTile = 'o';
         
         while (true)
         {
