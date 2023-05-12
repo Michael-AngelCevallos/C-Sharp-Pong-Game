@@ -21,6 +21,11 @@ public class Pong
         int ballX = fieldLength / 2;
         int ballY = fieldWidth / 2;
         const char ballTile = 'o';
+
+        bool isBallGoingDown = true;
+        bool isBallGoingRight = true;
+        
+        
         
         while (true)
         {
