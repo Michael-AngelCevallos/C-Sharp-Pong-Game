@@ -24,7 +24,9 @@ public class Pong
 
         bool isBallGoingDown = true;
         bool isBallGoingRight = true;
-        
+
+        int leftPlayerPoints = 0;
+        int rightPlayerPoints = 0;
         
         
         while (true)
@@ -71,6 +73,20 @@ public class Pong
                 if (ballY == 1 || ballY == fieldWidth - 1)
                 {
                     isBallGoingDown = !isBallGoingDown;
+                }
+
+                if (ballX == 1)
+                {
+                    if (ballY >= leftRacketHeight + 1 && ballY <= leftRacketHeight + racketLength)
+                    {
+                        isBallGoingRight = !isBallGoingRight;
+                    }
+                    else
+                    {
+                        rightPlayerPoints++;
+                        ballY = fieldWidth / 2;
+                        ballX = fieldLength / 2;
+                    }
                 }
             }
 
