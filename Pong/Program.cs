@@ -47,6 +47,16 @@ public class Pong
             {
                 Console.SetCursorPosition(ballX,ballY);
                 Console.WriteLine(ballTile);
+                Thread.Sleep(100);
+
+                if (isBallGoingDown)
+                {
+                    ballY++;
+                }
+                else
+                {
+                    ballY--;
+                }
             }
 
             switch (Console.ReadKey().Key)
