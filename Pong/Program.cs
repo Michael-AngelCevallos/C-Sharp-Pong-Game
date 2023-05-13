@@ -88,6 +88,19 @@ public class Pong
                         ballX = fieldLength / 2;
                     }
                 }
+                if (ballX == fieldLength - 2)
+                {
+                    if (ballY >= rightRacketHeight + 1 && ballY <= rightRacketHeight + racketLength)
+                    {
+                        isBallGoingRight = !isBallGoingRight;
+                    }
+                    else
+                    {
+                        leftPlayerPoints++;
+                        ballY = fieldWidth / 2;
+                        ballX = fieldLength / 2;
+                    }
+                }
             }
 
             switch (Console.ReadKey().Key)
