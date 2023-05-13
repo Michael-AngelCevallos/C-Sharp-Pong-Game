@@ -27,6 +27,9 @@ public class Pong
 
         int leftPlayerPoints = 0;
         int rightPlayerPoints = 0;
+
+        int scoreboardX = fieldLength / 2 - 2;
+        int scoreboardY = fieldWidth + 3;
         
         
         while (true)
@@ -51,6 +54,9 @@ public class Pong
                 Console.WriteLine(ballTile);
                 Thread.Sleep(100);
 
+                Console.SetCursorPosition(ballX,ballY);
+                Console.WriteLine(' ');
+                
                 if (isBallGoingDown)
                 {
                     ballY++;
