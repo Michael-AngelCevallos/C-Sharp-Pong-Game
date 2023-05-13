@@ -168,6 +168,10 @@ public class Pong
         {
             Console.WriteLine("Right Player Won!");
         }
+        elses
+        {
+            Console.WriteLine("Left Player Won!");
+        }
 
 
     }
