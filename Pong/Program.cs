@@ -162,9 +162,11 @@ public class Pong
         outer: ;
         Console.Clear();
         Console.WriteLine();
+        Console.SetCursorPosition(0,0);
+        
         if (rightPlayerPoints  == 10)
         {
-            
+            Console.WriteLine("Right Player Won!");
         }
 
 
