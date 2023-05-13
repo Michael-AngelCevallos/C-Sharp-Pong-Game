@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Metrics;
 
 
 namespace Pong;
@@ -92,6 +93,13 @@ public class Pong
                         rightPlayerPoints++;
                         ballY = fieldWidth / 2;
                         ballX = fieldLength / 2;
+                        Console.SetCursorPosition(scoreboardX, scoreboardY);
+                        Console.WriteLine($"{leftPlayerPoints} | {rightPlayerPoints}");
+
+                        if (rightPlayerPoints == 10)
+                        {
+                            goto outer;
+                        }
                     }
                 }
                 if (ballX == fieldLength - 2)
@@ -105,6 +113,13 @@ public class Pong
                         leftPlayerPoints++;
                         ballY = fieldWidth / 2;
                         ballX = fieldLength / 2;
+                        Console.SetCursorPosition(scoreboardX, scoreboardY);
+                        Console.WriteLine($"{leftPlayerPoints} | {rightPlayerPoints}");
+                        
+                        if (leftPlayerPoints == 10)
+                        {
+                            goto outer;
+                        }
                     }
                 }
             }
@@ -144,9 +159,14 @@ public class Pong
                 Console.WriteLine(" ");
             }
         }
+        outer: ;
+        Console.Clear();
+        Console.WriteLine();
+        if (rightPlayerPoints  == 10)
+        {
+            
+        }
 
 
-
-        
     }
 }
